@@ -1,0 +1,24 @@
+{
+  "python.pythonPath": "path/to/your/venv/bin/python",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "files.autoSave": "afterDelay"
+}
+
+
+#python
+
+def greet(name):
+    return f"Hello, {name}!"
+
+if __name__ == "__main__":
+    name = input("Enter your name: ")
+    print(greet(name))
+
+
+    def greet(name):
+    return f"Hello, {name}!"
+
+if __name__ == "__main__":
+    name = input("Enter your name: ")
+    print(greet(name))
